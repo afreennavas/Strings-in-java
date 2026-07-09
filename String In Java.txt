@@ -1,0 +1,25 @@
+String In Java :
+=====
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+         String s1 = "abcdefg";
+        String s2 = new String("abc");
+        String s3 = "abc";
+        System.out.println(s1+" "+s2);
+         System.out.println(s1 == s3);
+        System.out.println(s1 == s2);
+        System.out.println(s1.charAt(0));
+         System.out.println(s1.substring(0, 3));
+         System.out.println(s1.length());
+        String s1 = "abcaabc";
+        s1 = s1.replace("b", "o");
+        System.out.println(s1);
+        s1 = s1.replace("b", "");
+        System.out.println(s1);
+       String s1 = "ab, b,1@ B, , ";
+        // System.out.println(Arrays.toString(s1.split(",")));
+    }
+}
+
